@@ -1,0 +1,6 @@
+
+[
+  { "id": "1", "name": "John Smith", "gender": "male", "dob": "1980-01-01" },
+  { "id": "2", "name": "Mary Johnson", "gender": "female", "dob": "1975-05-15" },
+  { "id": "3", "name": "Alex Lee", "gender": "other", "dob": "1992-11-03" }
+]

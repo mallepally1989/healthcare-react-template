@@ -1,0 +1,17 @@
+
+:root { --bg: #0f172a; --fg: #e2e8f0; --muted: #94a3b8; --accent: #22c55e; --panel: #111827; --border: #1f2937; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: system-ui, sans-serif; background: var(--bg); color: var(--fg); }
+a { color: var(--fg); text-decoration: none; }
+a.active { color: var(--accent); }
+.app-header { display: flex; align-items: center; gap: 1rem; padding: 0.75rem 1rem; border-bottom: 1px solid var(--border); background: var(--panel); }
+.app-header .spacer { flex: 1; }
+.app-header .btn { padding: 0.35rem 0.6rem; border-radius: 6px; }
+.btn-outline { border: 1px solid var(--border); background: transparent; color: var(--fg); }
+.app-body { display: grid; grid-template-columns: 220px 1fr; min-height: calc(100vh - 56px); }
+.app-sidebar { border-right: 1px solid var(--border); padding: 1rem; }
+.app-content { padding: 1rem; }
+.card { background: var(--panel); border: 1px solid var(--border); border-radius: 8px; padding: 1rem; }
+.table { width: 100%; border-collapse: collapse; }
+.table th, .table td { border-bottom: 1px solid var(--border); padding: 0.5rem; text-align: left; }
+.muted { color: var(--muted); }
